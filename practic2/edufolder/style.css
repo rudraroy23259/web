@@ -1,0 +1,85 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+/* utility classes*/
+.img-responsive{
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+}
+
+.hero_css{
+    background: url(nnn.jpg) no-repeat;
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size:cover ;
+    position: relative;
+
+    
+}
+.hero_wrapper{
+    color:aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+}
+.hero_wrapper h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.hero_wrapper span{
+    margin-left: 1rem;
+}
+.form_code{
+    text-align: center;
+}
+.form_code .post_code{
+    display: block;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto ;
+    border-radius: 2rem;
+    padding: .6rem;
+    background-color: papayawhip;
+    border: none;
+}
+.form_code .submit_now{
+    border-radius: 2rem;
+    background-color: rgb(229, 195, 151);
+    padding: 0.5rem ;
+    display: block;
+    width: 45%;
+    text-align: center;
+    margin:1rem auto 0rem;
+    border: none;
+
+}
+/* product section*/
+.product{
+    margin-top: .3rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product_list_item{
+    float: left;
+    width: 33%;
+    margin-top: auto;
+}
+.product_list_item:first-of-type{
+    scroll-margin-left: 0;
+}
+
+
+@media screen and (max-width:700px){
+    .product_list_item{
+        width:100%;
+        float:none;
+    }
+}
